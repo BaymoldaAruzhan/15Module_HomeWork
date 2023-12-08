@@ -59,7 +59,6 @@ namespace _15_Module_HomeWork
             ConstructorInfo[] listConstructors = closedType.GetConstructors();
 
             Console.WriteLine("\nКонструкторы класса List<T>:");
-
             if (listConstructors.Length == 0)
             {
                 Console.WriteLine("Класс не имеет конструкторов.");
